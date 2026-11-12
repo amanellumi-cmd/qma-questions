@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "exportedAt": "2026-11-13 05:02",
+  "exportedAt": "2026-11-13 05:12",
   "includesUnverified": false,
   "questions": [
     {"id":"Q00001","genre":"理系学問","type":"ox","difficulty":1,"text":"地球は太陽のまわりを回っている。","answer":true},
@@ -23454,6 +23454,21 @@
     {"id":"Q81427","genre":"VRC","type":"oneway","difficulty":2,"text":"2023.3.2 から、マイクのアイコンは、何もしないと何秒たってから消え始める？","choices":["5秒","3秒","20秒","30秒"],"answer":"5秒"},
     {"id":"Q81428","genre":"VRC","type":"panel","difficulty":3,"text":"2023.1.2 で入った、イヤーマフの範囲を前だけにしぼるモードを、VRChat は何 earmuffs と呼んでいた？","panels":["c","o","z","y","d","i","p","u","h","g"],"answer":"cozy"},
     {"id":"Q81429","genre":"VRC","type":"panel","difficulty":1,"text":"2022.4.1 から、Show Avatar と Hide Avatar の設定は、どこに保存されるようになった？","panels":["ロ","ー","カ","ル","サ","バ","ク","ラ","ウ","ド"],"answer":"ローカル"},
-    {"id":"Q81430","genre":"VRC","type":"panel","difficulty":1,"text":"2022.1.2 の Avatar Dynamics で、はじめの設定でふれあえる相手は？","panels":["フ","レ","ン","ド","全","員","自","分","グ","ル"],"answer":"フレンド"}
+    {"id":"Q81430","genre":"VRC","type":"panel","difficulty":1,"text":"2022.1.2 の Avatar Dynamics で、はじめの設定でふれあえる相手は？","panels":["フ","レ","ン","ド","全","員","自","分","グ","ル"],"answer":"フレンド"},
+    {"id":"Q81432","genre":"VRC","type":"four","difficulty":2,"text":"Udon で、インスタンスにいるプレイヤーの数を返すのは「VRCPlayerApi.〇〇」？","choices":["GetPlayerCount","PlayerNumber","CountPlayers","GetAllPlayers"],"answer":"GetPlayerCount"},
+    {"id":"Q81433","genre":"VRC","type":"four","difficulty":2,"text":"VRC Pickup の Orientation で選べないものは？","choices":["Hand","Any","Grip","Gun"],"answer":"Hand"},
+    {"id":"Q81434","genre":"VRC","type":"four","difficulty":3,"text":"VRC Pickup で、銃のように持つときの持ち位置を決める欄は？","choices":["Exact Gun","Gun Point","Exact Hold","Hold Gun"],"answer":"Exact Gun"},
+    {"id":"Q81435","genre":"VRC","type":"four","difficulty":1,"text":"UdonSharp で、スクリプトのクラスが継承するのは？","choices":["UdonSharpBehaviour","MonoBehaviour","UdonBehaviourBase","VRCBehaviour"],"answer":"UdonSharpBehaviour"},
+    {"id":"Q81436","genre":"VRC","type":"four","difficulty":3,"text":"PhysBone が Float で返すパラメーターの名前の終わりで、曲がりぐあいを表すのは？","choices":["_Angle","_Bend","_Curve","_Twist"],"answer":"_Angle"},
+    {"id":"Q81437","genre":"VRC","type":"four","difficulty":1,"text":"Udon で、自分（このパソコンのプレイヤー）を表すのは「Networking.〇〇」？","choices":["LocalPlayer","MyPlayer","Self","Owner"],"answer":"LocalPlayer"},
+    {"id":"Q81438","genre":"VRC","type":"ox","difficulty":2,"text":"VRC Station には、プレイヤーが自分で降りられないようにする Disable Station Exit の設定がある。","answer":true},
+    {"id":"Q81439","genre":"VRC","type":"ox","difficulty":3,"text":"PhysBone のコライダーの形には、平面（Plane）がない。","answer":false},
+    {"id":"Q81440","genre":"VRC","type":"ox","difficulty":2,"text":"Udon の SendCustomEventDelayedFrames は、何フレームかあとにイベントを呼ぶ。","answer":true},
+    {"id":"Q81441","genre":"VRC","type":"typing","difficulty":2,"text":"Udon で、何秒かあとにイベントを呼ぶのは「SendCustomEventDelayed〇〇〇〇〇〇〇」？（英字で）","accept":[],"answer":"Seconds"},
+    {"id":"Q81442","genre":"VRC","type":"typing","difficulty":3,"text":"VRC Constraints で、Aim のほかに物を目標のほうに向けるのは「VRC 〇〇〇〇〇〇 Constraint」？（英字・空白なしで）","accept":["Look At"],"answer":"LookAt"},
+    {"id":"Q81443","genre":"VRC","type":"match","difficulty":2,"text":"VRC Pickup の欄と、その意味を結んでください","pairs":[["Exact Grip","Grip で持つときの持ち位置"],["Exact Gun","Gun で持つときの持ち位置"],["Orientation","持ち方の種類"]],"answer":null},
+    {"id":"Q81444","genre":"VRC","type":"multi","difficulty":2,"text":"Avatars 3.0 の Playable Layers の下にある、追加のポーズ（Additional Poses）をすべて選んでください","choices":["Sitting","T-Pose","IK Pose","Swimming","Flying","Dancing"],"answer":["Sitting","T-Pose","IK Pose"]},
+    {"id":"Q81445","genre":"VRC","type":"panel","difficulty":2,"text":"PhysBone の Immobile Type で、All Motion ではないほうは？","panels":["ワ","ー","ル","ド","ボ","デ","ィ","ス","カ","イ"],"answer":"ワールド"},
+    {"id":"Q81446","genre":"VRC","type":"ox","difficulty":1,"text":"UdonSharp のスクリプトのファイルは、拡張子 .py で書く。","answer":false}
   ]
 }
